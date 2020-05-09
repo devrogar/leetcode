@@ -22,12 +22,12 @@ public class P38 {
 	/*
 	 * Sequence is as follows,
 	 * 
-	 * 1.     1			-> read as one one (which will become next sequence)
-	 * 2.     11		-> read as two ones							[21]
-     * 3.     21		-> read as one two & one one				[1211]
-     * 4.     1211		-> read as one one & one two & two ones 	[111221]
-     * 5.     111221	-> read as three ones & two twos & one one 	[312211]
-     * ..
+	 * 1.     1		-> read as one one (which will become next sequence)
+	 * 2.     11		-> read as two ones				[21]
+     	 * 3.     21		-> read as one two & one one			[1211]
+     	 * 4.     1211		-> read as one one & one two & two ones 	[111221]
+     	 * 5.     111221	-> read as three ones & two twos & one one 	[312211]
+     	 * ..
 	 */
 	private static class Solution {
 		
